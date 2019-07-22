@@ -4,7 +4,9 @@
   "description": "wepy compile babel",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "babel"
@@ -12,6 +14,8 @@
   "author": "Gcaufy",
   "license": "MIT",
   "dependencies": {
-    "babel-core": "^6.20.0"
-  }
+    "babel-core": "^6.20.0",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
