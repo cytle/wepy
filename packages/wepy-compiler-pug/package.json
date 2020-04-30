@@ -4,7 +4,9 @@
   "description": "wepy compile pug",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "pug"
@@ -12,6 +14,8 @@
   "author": "Gcaufy",
   "license": "MIT",
   "dependencies": {
-    "pug": "^2.0.0-beta6"
-  }
+    "pug": "^2.0.0-beta6",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
