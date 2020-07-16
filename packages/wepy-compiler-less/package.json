@@ -10,7 +10,7 @@
     "less"
   ],
   "dependencies": {
-    "less": "^2.7.1"
+    "less": "^3.0.2"
   },
   "author": "Gcaufy",
   "license": "MIT"
