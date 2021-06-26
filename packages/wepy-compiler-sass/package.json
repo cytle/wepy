@@ -12,6 +12,6 @@
   "author": "Gcaufy",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^4.0.0"
+    "node-sass": "^6.0.1"
   }
 }
